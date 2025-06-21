@@ -16,7 +16,7 @@ function App() {
   return ( 
     <Router>
       <ScrollHandler />
-      <div className="bg-neutral-400 flex flex-col min-h-screen overflow-x-hidden"
+      <div className="bg-neutral-400 flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow">
           <Routes>
