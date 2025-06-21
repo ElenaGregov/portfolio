@@ -49,7 +49,7 @@ const Projects = () => {
               <h3 className="text-xl font-semibold text-rose-400 mb-2">
                 {project.title}
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
+              <p className="text-gray-600 mb-4">
                 {project.description}
               </p>
 
@@ -78,7 +78,7 @@ const Projects = () => {
                   href={project.repo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-sm text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-white font-medium"
+                  className="flex items-center gap-1 text-sm text-gray-500 hover:text-gray-700 font-medium"
                 >
                   <FaGithub /> GitHub
                 </a>
