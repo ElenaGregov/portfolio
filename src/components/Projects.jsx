@@ -34,7 +34,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen scroll-mt-16 flex flex-col justify-center px-4 py-20 bg-gray-100 dark:bg-gray-900"
+      className="min-h-screen scroll-mt-16 flex flex-col justify-center px-4 py-20 bg-gray-100"
     >
       <FadeInWhenVisible>
         <h2 className="text-4xl font-bold mb-12 text-center text-rose-500">
