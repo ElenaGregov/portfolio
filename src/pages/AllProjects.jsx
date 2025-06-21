@@ -66,7 +66,7 @@ const AllProjects = () => {
   };
 
   return (
-    <section className="min-h-screen py-20 px-4 sm:px-8 bg-neutral-400 dark:bg-gray-900">
+    <section className="min-h-screen py-20 px-4 sm:px-8 bg-neutral-400">
       <h2 className="text-4xl font-bold text-center text-rose-400 mb-16">
         Explore Featured Projects
       </h2>
@@ -82,7 +82,7 @@ const AllProjects = () => {
           return (
             <div
               key={index}
-              className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transform transition duration-300 hover:-translate-y-1 border border-gray-200 dark:border-gray-700"
+              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transform transition duration-300 hover:-translate-y-1 border border-gray-200"
             >
               {project.image && (
                 <img
@@ -96,7 +96,7 @@ const AllProjects = () => {
                   <span className="text-xs bg-rose-200 text-rose-600 font-semibold px-2 py-0.5 rounded-full">
                     #{index + 1}
                   </span>
-                  <span className="text-xs text-gray-400 dark:text-gray-500 italic">
+                  <span className="text-xs text-gray-400 italic">
                     {project.tech.join(", ")}
                   </span>
                 </div>
@@ -105,7 +105,7 @@ const AllProjects = () => {
                   {project.title}
                 </h3>
 
-                <p className="text-gray-700 dark:text-gray-300 mb-2 text-sm leading-relaxed">
+                <p className="text-gray-700 mb-2 text-sm leading-relaxed">
                   {isExpanded ? project.description : shortDescription}
                 </p>
                 {project.description.length > 100 && (
@@ -130,7 +130,7 @@ const AllProjects = () => {
                     href={project.repo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1 text-sm text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-white font-medium"
+                    className="flex items-center gap-1 text-sm text-gray-500 hover:text-gray-700 font-medium"
                   >
                     <FaGithub /> GitHub
                   </a>
