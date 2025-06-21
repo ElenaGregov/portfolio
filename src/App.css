@@ -1,9 +1,6 @@
+
 /*@import "tailwindcss";*/
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Outfit:wght@100..900&display=swap");
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 html,
 body,
@@ -15,11 +12,6 @@ body,
   font-family: "Jost", sans-serif;
   scroll-behavior: smooth;
   background-color: #a3a3a3;
-}
-
-html, body {
-  @apply bg-neutral-400;
-  height: 100%;
 }
 
 body {
