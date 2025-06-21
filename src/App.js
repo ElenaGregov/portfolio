@@ -13,7 +13,8 @@ import ScrollHandler from "./components/ScrollHandler";
 import "./App.css";
 
 function App() {
-  return (
+  return ( 
+    <div className="min-h-screen flex flex-col bg-neutral-400">
     <Router>
       <ScrollHandler />
       <div className="bg-neutral-400 flex flex-col min-h-screen overflow-x-hidden">
@@ -37,6 +38,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+   </div>
   );
 }
 
