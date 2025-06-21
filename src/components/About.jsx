@@ -27,7 +27,7 @@ const About = () => {
           About me
         </h2>
 
-        <p className="text-gray-200 dark:text-gray-400 mb-12 max-w-xl text-2xl mx-auto text-center">
+        <p className="text-gray-200 mb-12 max-w-xl text-2xl mx-auto text-center">
           I am a web developer with experience in building responsive and modern
           interfaces using React, JavaScript, HTML, CSS, and tools like Node.js,
           Firebase, Tailwind, GitHub, and more.
