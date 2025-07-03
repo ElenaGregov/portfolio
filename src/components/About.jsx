@@ -19,6 +19,8 @@ import {
   SiExpress,
 } from "react-icons/si";
 import FadeInWhenVisible from "./FadeInWhenVisible";
+import { Link } from "react-router-dom";
+
 const About = () => {
   return (
     <section id="about" className="section animate-fadeInUp text-center py-12">
@@ -132,12 +134,12 @@ const About = () => {
           >
             View My Work ↓
           </a>
-          <a
-            href="/certificates"
+          <Link
+            to="/certificates"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-gray-100 text-rose-500 font-semibold px-6 py-3 rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out border border-gray-200"
           >
             🎓 Certificates
-          </a>
+          </Link>
         </div>
       </FadeInWhenVisible>
     </section>
