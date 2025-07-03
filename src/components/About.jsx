@@ -126,12 +126,17 @@ const About = () => {
             <FaGithub className="text-xl" />
             Check Out My Code
           </a>
-
           <a
             href="#projects"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-gray-100 text-rose-500 font-semibold px-6 py-3 rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out border border-gray-200"
           >
             View My Work ↓
+          </a>
+          <a
+            href="/certificates"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-white to-gray-100 text-rose-500 font-semibold px-6 py-3 rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 ease-in-out border border-gray-200"
+          >
+            🎓 Certificates
           </a>
         </div>
       </FadeInWhenVisible>

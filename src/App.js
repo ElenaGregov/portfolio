@@ -10,10 +10,12 @@ import Contact from "./components/Contact";
 import AllProjects from "./pages/AllProjects";
 import NotFound from "./pages/NotFound";
 import ScrollHandler from "./components/ScrollHandler";
+import Certificates from "./pages/Certificates";
+
 import "./App.css";
 
 function App() {
-  return ( 
+  return (
     <Router>
       <ScrollHandler />
       <div className="bg-neutral-400 flex flex-col min-h-screen">
@@ -30,7 +32,8 @@ function App() {
                 </>
               }
             />
-            <Route path="/projects" element={<AllProjects />} />
+            <Route path="/projects" element={<AllProjects />} />{" "}
+            <Route path="/certificates" element={<Certificates />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

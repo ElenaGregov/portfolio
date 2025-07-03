@@ -58,6 +58,15 @@ const Header = () => {
             </li>
             <li>
               <Link
+                to="/certificates"
+                className="hover:underline"
+                onClick={closeMenu}
+              >
+                Certificates
+              </Link>
+            </li>
+            <li>
+              <Link
                 smooth
                 to="/#contact"
                 className="hover:underline"
@@ -148,6 +157,15 @@ const Header = () => {
               onClick={closeMenu}
             >
               Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/certificates"
+              className="hover:underline"
+              onClick={closeMenu}
+            >
+              Certificates
             </Link>
           </li>
           <li>
