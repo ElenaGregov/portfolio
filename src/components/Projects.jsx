@@ -20,13 +20,13 @@ const projects = [
     link: "https://worldwise-eg.netlify.app/",
     repo: "https://github.com/ElenaGregov/WorldWise",
   },
-  {
-    title: "React Quiz App",
+   {
+    title: "Face Recognition App",
     description:
-      "A quiz application with multiple-choice questions, countdown timer, and score tracking. Uses React with custom reducer and a JSON server for dynamic content.",
-    tech: ["React", "JavaScript", "Hooks", "JSON Server"],
-    link: "https://react-quiz-el.onrender.com/",
-    repo: "https://github.com/ElenaGregov/React-Quiz",
+      "A full-stack web app that detects faces in images using the Clarifai API. Built with React for the frontend and Node.js/Express with PostgreSQL for the backend, deployed on Render.",
+    tech: ["React", "Node.js", "Express", "PostgreSQL", "Clarifai API"],
+    link: "https://facerecapp-gikx.onrender.com/",
+    repo: "https://github.com/ElenaGregov/face-recognition-brain-front-end",
   },
 ];
 
@@ -118,3 +118,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
