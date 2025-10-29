@@ -20,6 +20,15 @@ const projects = [
     repo: "https://github.com/ElenaGregov/WorldWise",
     image: "/images/worldwise.png",
   },
+   {
+    title: "Face Recognition App",
+    description:
+      "A full-stack web app that detects faces in user-submitted images using the Clarifai AI API. Built with React on the frontend and Node.js/Express with PostgreSQL on the backend. It supports user registration, sign-in, and keeps track of each user’s image submissions. Deployed on Render.",
+    tech: ["React", "Node.js", "Express", "PostgreSQL", "Clarifai API"],
+    link: "https://facerecapp-gikx.onrender.com/",
+    repo: "https://github.com/ElenaGregov/face-recognition-brain-front-end",
+    image: "/images/facerecognition.png",
+  },
   {
     title: "React Quiz App",
     description:
@@ -145,3 +154,4 @@ const AllProjects = () => {
 };
 
 export default AllProjects;
+
